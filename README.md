@@ -5,7 +5,7 @@ python implementation of a simple Merkle tree
 
 create merkle tree:
 
-'1 <node> <node> <node> ...... <node>' (make sure number of nodes is a power of 2)
+'1 '<node> <node> <node> ...... <node>'' (make sure number of nodes is a power of 2)
 
 
 print proof of inclusion for given node:
