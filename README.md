@@ -5,7 +5,7 @@ python implementation of a simple Merkle tree
 
 create merkle tree:
 
-'1 \<node> <node> <node> ...... <node>' (make sure number of nodes is a power of 2)
+'1 \<node> \<node> \<node> ...... \<node>' (make sure number of nodes is a power of 2)
 
 
 print proof of inclusion for given node:
@@ -15,7 +15,7 @@ print proof of inclusion for given node:
 
 check validity of proof of inclusion (checks that the given proof of inclusion is correct for given node and tree root):
 
-'3 <node to check> <root of tree> <proof of inclusion>'
+'3 \<node to check> \<root of tree> \<proof of inclusion>'
 
 
 find nonce which generates hash beginning with at least given number of '0's:
